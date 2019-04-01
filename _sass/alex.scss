@@ -1,0 +1,30 @@
+.site-footer {
+    margin-top: 15px;
+	.credits {
+		@include span-columns(12);
+		@include media ($mobile) {
+			@include span-columns(6);
+		}
+		@include media ($tablet) {
+			@include span-columns(5);
+		}
+		font-size: 0.8em;
+		ul {
+			@extend %default-ul;
+		}
+		a {
+			text-decoration: underline;
+		}
+	}
+	.copyright {
+		margin-top: 1em;
+		text-align: right;
+		@include span-columns(12);
+		@include media ($tablet) {
+			@include span-columns(7);
+			margin-right: 0;
+			margin-top: 0;
+		}
+		font-size: 0.9em;
+	}
+}

@@ -1,0 +1,38 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - "/vendor/"
+
+# Site settings
+title: Alexandre Vandekerkhove
+subtitle: "Développement, Architecture, Veille en nouvelles technologies"
+name: Alexandre Vandekerkhove
+description: >
+  Blog of Alexandre Vandekerkhove, software architect and developer from Lille, France.
+# Base URL of site (i.e. /blog). It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo_av.png"
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: false
+highlightjs_theme: "monokai-sublime"
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+social:
+  github:
+    username: avandekerkhove
+    url: https://github.com/avandekerkhove
+    
+  linkedin:
+    url: https://www.linkedin.com/in/alexandre-vandekerkhove-9aa358160/
