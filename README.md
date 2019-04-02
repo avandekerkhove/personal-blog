@@ -1,8 +1,9 @@
+Source code of my blog https://www.alexandrevandekerkhove.fr/
 
-Personal blog statically compiled thanks to [Jekyll](https://jekyllrb.com/).
+The blog is statically compiled thanks to [Jekyll](https://jekyllrb.com/).
 
 Compile and deploy locally :
 
 	bundle exec jekyll serve
 
-==> go to http://localhost:4000
+==> http://localhost:4000
