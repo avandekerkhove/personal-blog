@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Découverte du framework Micronaut"
+description: "Découverte du framework Micronaut pour construire des applications microservices sur la JVM"
 date:   2019-01-02
 categories: 
 cover:  "/assets/micronaut/logo.png"
@@ -222,7 +223,7 @@ Micronaut est un nouveau framework JVM qui est vraiment prometteur. Il est simpl
 L'enjeu pour l'équipe de développement sera de garder le côté "micro" tout en augmentant le périmètre des fonctionnalités. Je pense qu'il peut se positionner comme une alternative crédible sur ce marché. En tout cas, je vais surveiller son évolution avec intérêt !
 
 <br />
-<span class="page-divider"><span class="one"></span><span class="two"></span></span>
+{% include page_divider.html %}
 *<small>Publié originellement sur le site de [Salto Consulting](http://www.salto-consulting.com/decouverte-du-framework-micronaut/) le 2 Janvier 2019.</small>* 
 
 
