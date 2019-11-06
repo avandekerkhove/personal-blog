@@ -2,7 +2,7 @@
 layout: post
 title:  "Architecture modulaire, microservices : on en est où ?"
 description: "Cet article propose un retour d'expériences et de pratiques autour de l'architecture modulaire et des microservices."
-date:   2019-01-28
+date:   2019-03-20
 categories: 
 cover:  "/assets/modular/modular.jpg"
 ---
